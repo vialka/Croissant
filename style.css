@@ -11,7 +11,16 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+a:hover {
+  text-decoration: none;
+  color: rgb(3, 3, 9);
+}
 .navigation {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.navigation-margin {
+  margin: 30px;
 }
